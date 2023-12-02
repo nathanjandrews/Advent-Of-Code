@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "lib": ["ESNext"],
-    "module": "NodeNext",
+    "module": "esnext",
     "target": "esnext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "noEmit": true,
@@ -17,6 +17,11 @@
     "allowJs": true,
     "types": [
       "bun-types" // add Bun global
-    ]
-  }
+    ],
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "src/**/*.json",
+    "src/**/*.ts",
+  ]
 }
