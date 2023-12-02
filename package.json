@@ -4,5 +4,7 @@
   "type": "module",
   "workspaces": [
     "packages/*"
-  ]
+  ],"scripts": {
+    "task": "bun run ./packages/2023/src/day01/task01.ts"
+  }
 }
