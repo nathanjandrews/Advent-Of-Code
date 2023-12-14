@@ -5,6 +5,6 @@
   "workspaces": [
     "packages/*"
   ],"scripts": {
-    "task": "bun run ./packages/2023/src/day05/task02.ts"
+    "task": "bun run ./packages/$YEAR/src/day$DAY/task0$TASK.ts"
   }
 }
